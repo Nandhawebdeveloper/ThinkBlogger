@@ -50,7 +50,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/about" className="text-gray-400 hover:text-[#4BB4E6]">
-                  Free Training
+                    Create Blog
                 </Link>
               </li>
             </ul>
