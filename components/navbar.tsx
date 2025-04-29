@@ -40,7 +40,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link href="/add-blog">
-              <Button className="bg-white text-black hover:bg-gray-200 rounded-full">Free Training</Button>
+              <Button className="bg-white text-black hover:bg-gray-200 rounded-full">Create Blog</Button>
             </Link>
           </nav>
 
@@ -70,7 +70,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link href="/add-blog" onClick={() => setMobileMenuOpen(false)}>
-              <Button className="bg-white text-black hover:bg-gray-200 rounded-full w-full mt-2">Create</Button>
+              <Button className="bg-white text-black hover:bg-gray-200 rounded-full w-full mt-2">Create Blog</Button>
             </Link>
           </div>
         </div>
